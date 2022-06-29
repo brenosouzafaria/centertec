@@ -60,11 +60,11 @@ nav {
 nav > a {
     text-decoration: none;
     padding: 2px 5px;
-    font-family: var(--fonte-bebas);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    color: var(--cor06);
+    color: white;
     font-weight: bolder;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 nav > a:hover {
@@ -104,6 +104,17 @@ main p {
     text-indent: 30px;
     font-size: 1.2em;
     line-height: 2em;
+}
+
+main aside {
+    background-color: rgb(250, 250, 183);
+    width: 42%;
+    height: 100px;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.658);
 }
 
 footer {
